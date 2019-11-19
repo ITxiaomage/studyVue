@@ -238,7 +238,7 @@
      - npm i babel-preset-mobx
 - 在webpack.config.js中新增匹配规则
 
- 	~~~js
+  ~~~js
           module.exports={
             module:{ // 配置第三方模块  加载器
                 rules:[ //所有第三方模块的匹配规则
@@ -249,7 +249,8 @@
             }
 
         }
-	~~~
+
+ ~~~
 
 - 在项目的根目录新建一个.babelrc文件。这个Babel的配置文件属于JSON文件
   - .babelrc文件写如下配置
